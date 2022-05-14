@@ -28,24 +28,13 @@
     이번년도가 끝나면 뵙지 못하게될까봐 아쉽습니다<br><br>
 
     지금까지 선생님의 자랑스러운 제자가 되고싶은 조현민이었습니다 감사합니다!~!~!!><
-    </p><br><input type="text" id="input"><br>
-<textarea id="output"></textarea>
-<button onclick="input()">답장</button>
-<button onclick="output()">전송</button>
-        <script type="text/javascript">
-var temp;
+    <form id="form">
+	<input type="text" id="msg">
+	<button type="submit" id="btn">입력</button>
+</form>
 
-function input(){
-var input = document.getElementById("input").value;
-temp = input;
-}
-
-function output(){
-document.getElementById("output").value = temp;
-}
-
-</script>
-[출처] input text 에서 입력값 받기 및 출력하기|작성자 풀풀풀
+<h1 class="feedback">Input 값을 입력하세요</h1>
+<h2 id="txt"></h2>
     <h2>반장의 편지</h2>
         
     <h3><존경하는 담임선생님께></h3>
