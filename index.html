@@ -13,11 +13,17 @@
     <title>스승의 날</title>
 
     <style>
-        body{
-            background-image: url("Images/선생님_감사합니다.png");
-            background-repeat : no-repeat;
-            background-position: center;
-            background-position: top;
+        @import url("main.css") only screen and (min-width:200px) and (max-width:480px);
+
+        @media (min-width: 1200px) {
+            body{
+                background-image: url("Images/선생님_감사합니다.png");
+                background-repeat : no-repeat;
+                background-position: center;
+                background-position: top;
+            }
+        }
+        @media (max-width: 767px){
         }
     </style>
 </head>
